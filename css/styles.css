@@ -8,6 +8,7 @@
   border-width: 2px;
   border-color: black;
   padding: 10px;
+
 }
 
 .card-body {
@@ -16,7 +17,19 @@
 
 .row {
   border-width: 0;
+  display: block;
+  margin-bottom: 70px;
+  margin-top: 25px;
 }
+
+ {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
 
 input {
   margin-bottom: 10px;

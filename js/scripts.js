@@ -1,8 +1,8 @@
 //front-end logic
-function chooseTrack(question1Input, question2Input, question3Input) {
- var cScore = question1Input + question2Input + question3Input;
- var jScore =  question1Input + question2Input + question3Input;
- var rubyScore = question1Input + question2Input + question3Input;
+function chooseTrack(question1Input, question2Input, question3Input, question4Input, question5Input, question6Input) {
+ var cScore = question1Input*(-2) + question2Input*3 + question3Input*2 + question4Input + question5Input*2 + question6Input*(-2);
+ var jScore =  question1Input*2 + question2Input*(-1) + question3Input*2 + question4Input*(-3) + question5Input*3 + question6Input;
+ var rubyScore = question1Input*3 + question2Input*(-2) + question3Input*(-2) + question4Input*3 + question5Input*(-2) + question6Input*3;
  console.log(cScore)
  console.log(jScore)
  console.log(rubyScore)
@@ -41,9 +41,12 @@ $(document).ready(function() {
   var question1Input = parseInt($("#question1").val());
   var question2Input = parseInt($("#question2").val());
   var question3Input = parseInt($("#question3").val());
+  var question4Input = parseInt($("#question4").val());
+  var question5Input = parseInt($("#question5").val());
+  var question6Input = parseInt($("#question6").val());
   var userName = $("input#userName").val();
 
-var winner = chooseTrack(question1Input, question2Input, question3Input);
+var winner = chooseTrack(question1Input, question2Input, question3Input, question4Input, question5Input, question6Input);
 
   $("#recommendation .card").hide();
 
