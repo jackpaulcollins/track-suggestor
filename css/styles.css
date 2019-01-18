@@ -30,6 +30,6 @@ select {
   margin-top: 15px;
 }
 
-#recommendation {
+#recommendation .card {
   display: none;
 }
