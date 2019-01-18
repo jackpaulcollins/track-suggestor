@@ -24,7 +24,7 @@
         <div class="card">
           <div class="card-body">
             <h3 class="card-title">Survey Questions</h3>
-              <form class="form-group">
+              <form class="form-group" id="mainForm">
                 <label for="jobQuestion">What is your name?</label>
                 <input type="text" class="form-control" id="userName">
               </input>
@@ -50,6 +50,32 @@
               </form>
             </div>
           </div>
+        </div>
+
+      <div class="row" id="recommendation">
+        <div class="col-12">
+          <div class="card" id="cSharp">
+            <div class="card-body">
+              <h1 class="card-title">C#</h1>
+              <p class="card-text">Thanks <span id="userNameAnswer"></span>. Based on your answers we think you should check out C#. C# is typically used for back-end development. </p>
+            </div>
+          </div>
+
+          <div class="card" id="java">
+            <div class="card-body">
+              <h1 class="card-title">Java</h1>
+              <p class="card-text">Thanks <span id="userNameAnswer"></span>. Based on your answers we think you should check out Java. Java is typically used for back-end development.</p>
+            </div>
+          </div>
+
+          <div class="card" id="Ruby">
+            <div class="card-body">
+              <h1 class="card-title">Ruby</h1>
+              <p class="card-text">Thanks <span id="userNameAnswer"></span>. Based on your answers we think you should check out Ruby. Ruby is typically used to build interactive webpages.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
