@@ -1,18 +1,29 @@
-
+body {
+  background-color: #fcfdff
+}
 .form-group {
   margin: 5px;
   padding: 15px;
 }
 
 .card{
+  background-color: #eeffed;
   border-width: 2px;
   border-color: black;
   padding: 10px;
 
 }
 
+.card h1 {
+  color: black;
+  font-size: 4em;
+  font-weight: lighter;
+  padding-bottom: 25px;
+}
+
 .card-body {
   border: 0;
+
 }
 
 .row {
@@ -27,7 +38,14 @@
 }
 
 h1 {
+  font-size: 6em;
+  color: #ff9191;
+  font-family: 'Encode Sans Condensed', sans-serif;
   text-align: center;
+}
+
+p {
+  font-family: 'Thasadith', sans-serif;
 }
 
 
@@ -45,4 +63,29 @@ select {
 
 #recommendation .card {
   display: none;
+}
+
+img {
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 100px;
+  width: auto;
+}
+
+#heading {
+  width: auto;
+  height: auto;
+  border: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -webkit-align-content: center;
+  align-content: center;
+}
+
+.hi {
+  font-size: 3em;
+  font-weight: lighter;
 }

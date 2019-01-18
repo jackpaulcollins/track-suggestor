@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
@@ -10,14 +11,22 @@
   </head>
 
   <body>
+    <div class="container" id="heading">
+      <h1>Not Sure Which Track to Choose?</h1>
+    </div>
 
     <div class="container">
 
-      <h1>Need help decided which track to pick?</h1>
+      <div class="card">
+        <div class="card-body"
 
-      <p>Hi, and welcome to Epicodus. Computer programming is done using different languages. A computer language is similar to human languages in that they all differ in some way - syntaxt, punction, etc., yet they all aim to achieve the same goal:  to efficiently allow the computer to communicate. Because there are differences between the languages, some are better than others for completed particular tasks. At Epicodus you will be asked to choose a language to study. We have developed a short survery to help you determine what language might best fit your personality.
 
-      <span><a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">Click here</a></span> to find out more about the languages Epicodus teaches.
+          <p><span class="hi">Hi,</span></p>
+            <p>  Welcome to Epicodus. Computer programming is done using different languages. A computer language is similar to human languages in that they all differ in some way - syntaxt, punction, etc., yet they all aim to achieve the same goal:  to efficiently allow the computer to communicate. Because there are differences between the languages, some are better than others for completed particular tasks. At Epicodus you will be asked to choose a language to study. Don't worry too much about what you language you end up learning, the most important thing is that you learn the <strong>basic principles</strong> of programming.To help you determine which language you might like best, we have developed a short survery to help you determine what language might best fit your personality.</p>
+
+          <p><a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">Click here</a> to find out more about the languages Epicodus teaches.</p>
+        </div>
+      </div>
 
       <div class="row">
 
@@ -55,7 +64,7 @@
                   <option value="9">9</option>
                   <option value="10">10</option>
                 </select>
-                <label for="question3">(On a scale of 1-10)How appealing does working longterm on one major project sound?</label>
+                <label for="question3">(On a scale of 1-10)How appealing does working long-term on one major project sound?</label>
                 <select class="form-control" id="question3">
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -68,7 +77,7 @@
                   <option value="9">9</option>
                   <option value="10">10</option>
                 </select>
-                <label for="question4">(On a scale 1-10)How appealing does working on small, shortterm, projects sound?</label>
+                <label for="question4">(On a scale 1-10)How appealing does working on small, short-term, projects sound?</label>
                 <select class="form-control" id="question4">
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -119,28 +128,37 @@
           <div class="card" id="cSharp">
             <div class="card-body">
               <h1 class="card-title">C#</h1>
+              <img src="imgs/c.png" alt="C Sharp Logo">
               <p class="card-text">Thanks <span class="userNameAnswer"></span>, Based on your answers we think you should check out C#. C# was originally made by Microsoft, is a favorite for businesses. C# is typically used for back-end development. </p>
+              <p><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">Click here to learn more</a></p>
             </div>
           </div>
 
           <div class="card" id="java">
             <div class="card-body">
               <h1 class="card-title">Java</h1>
+              <img src="imgs/java.png" alt="Java Logo">
               <p class="card-text">Thanks <span class="userNameAnswer"></span>, Based on your answers we think you should check out Java. Java is a very prolific language, and can be used for all sorts of things. Java is often implemented in enterprise services, meaning you will likely be working on a few large scale, longterm applications</p>
+              <p><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Click here to learn more</a></p>
             </div>
           </div>
 
           <div class="card" id="ruby">
             <div class="card-body">
               <h1 class="card-title">Ruby</h1>
-              <p class="card-text">Thanks <span class="userNameAnswer"></span>, Based on your answers we think you should check out Ruby. Ruby is typically used to build interactive webpages.</p>
+              <img src="imgs/ruby.png" alt="Ruby Logo">
+              <p class="card-text">Thanks <span class="userNameAnswer"></span>, Based on your answers we think you should check out Ruby. Ruby is typically used to build interactive webpages. Although every employer meets different needs, it is common for web developers to work on smaller, shortterm projects which gives them the opportunity to work on new projects more often.</p>
+              <p><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Click here to learn more</a></p>
             </div>
           </div>
 
           <div class="card" id="tryThemAll">
             <div class="card-body">
-              <h1 class="card-title">Check them all out!</h1>
-              <p class="card-text">Thanks <span class="userNameAnswer"></span>, It looks like you need to try them all out since you're interested in everything they have in common!.</p>
+              <h1 class="card-title">Learn more!</h1>
+              <p class="card-text">Thanks <span class="userNameAnswer"></span>, we found a lot of overlap in your interests, which is great. Why don't you spend a little more time learning more about these three languages!</p>
+              <p><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a></p>
+              <p><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></p>
+              <p><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></p>
             </div>
           </div>
         </div>
