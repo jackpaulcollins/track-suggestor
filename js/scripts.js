@@ -1,5 +1,4 @@
 //front-end logic
-
 function chooseTrack(question1Input, question2Input, question3Input, question4Input, question5Input, question6Input) {
  var cScore = question1Input*(-2) + question2Input*3 + question3Input*2 + question4Input + question5Input*2 + question6Input*(-2);
  var jScore =  question1Input*2 + question2Input*(-1) + question3Input*2 + question4Input*(-3) + question5Input*3 + question6Input;
@@ -20,19 +19,6 @@ function chooseTrack(question1Input, question2Input, question3Input, question4In
     return "try them all out";
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //back-end logic
 
@@ -63,10 +49,6 @@ var winner = chooseTrack(question1Input, question2Input, question3Input, questio
   if (winner === "try them all out") {
     $("#tryThemAll").show();
   }
-
-
-  console.log(winner)
   $(".userNameAnswer").text(userName);
-
   })
 })
